@@ -49,4 +49,4 @@ $ string-first-non-repeated --help
 
 ## License
 
-MIT © [](http://vivekpoddar.com)
+MIT © [vivek](http://vivekpoddar.com)
