@@ -16,28 +16,17 @@ $ npm install --save string-first-non-repeated
 const stringFirstNonRepeated = require('string-first-non-repeated');
 
 stringFirstNonRepeated('unicorns');
-//=> 'unicorns & rainbows'
+//=> 'u'
 ```
 
 
 ## API
 
-### stringFirstNonRepeated(input, [options])
+### stringFirstNonRepeated(input)
 
 #### input
 
 Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
 
 
 ## CLI
@@ -52,14 +41,9 @@ $ string-first-non-repeated --help
   Usage
     string-first-non-repeated [input]
 
-  Options
-    --foo  Lorem ipsum [Default: false]
-
   Examples
-    $ string-first-non-repeated
-    unicorns & rainbows
-    $ string-first-non-repeated ponies
-    ponies & rainbows
+    $ string-first-non-repeated total
+    o
 ```
 
 
